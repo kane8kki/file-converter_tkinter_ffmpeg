@@ -44,7 +44,7 @@ input_entry.pack(side="left", fill="x", expand=True)
 input_button = tk.Button(input_frame, text="Parcourir", command=select_input_file)
 input_button.pack(side="right")
 
-output_label = tk.Label(root, text="Nom du fichier de sortie :")
+output_label = tk.Label(root, text="Nom du fichier de sortie (ex : video.mp4) :")
 output_label.pack(anchor="w", padx=10, pady=5)
 output_entry = tk.Entry(root, width=50)
 output_entry.pack(fill="x", padx=10)
